@@ -1,7 +1,7 @@
 function printMessage(msg) {
-  let div = document.createElement("div");
-  div.innerHTML = msg;
-  document.getElementById("messages").appendChild(div);
+  let h1 = document.createElement("h1");
+  h1.innerText = msg;
+  document.getElementById("messages").appendChild(h1);
 }
 
 function clearMessages() {
